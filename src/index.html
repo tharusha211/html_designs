@@ -3,6 +3,7 @@
     <head>
         <title>Barber shop website</title>
         <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width =device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -31,17 +32,31 @@
         <div id="menuBtn">
             <img src="assets/menu.png" id="menu">
         </div>
+        <!-- Features-->
+
+        <section id="feature">
+            <div class="title-text">
+                <p>FEATURES</p>
+                <h1>Why choose us</h1>
+            </div>
+        </section>
+
+
         <script>
             var menuBtn = document.getElementById("menuBtn")
             var sideNav = document.getElementById("sideNav")
             var menu = document.getElementById("menu")
 
+            sideNav.style.right = "-250px"
+
             menuBtn.onclick = function(){
                 if(sideNav.style.right == "-250px"){
                     sideNav.style.right = "0"
+                    menu.src = "assets/close.png"
                 }
                 else{
                     sideNav.style.right = "-250px"
+                    menu.src = "assets/menu.png"
                 }
             }
         </script>
