@@ -70,7 +70,7 @@
     color: #000;
 }
 
-#sidenav{
+#sideNav{
     width: 250px;
     height: 100vh;
     position: fixed;
@@ -90,7 +90,7 @@ nav ul li a{
     color: #fff;
 }
 
-#menubtn{
+#menuBtn{
     width: 50px;
     height: 50px;
     background: #009688;
@@ -103,7 +103,7 @@ nav ul li a{
     cursor: pointer;    
 }
 
-#menubtn img{
+#menuBtn img{
     width: 20px;
     margin-top: 15px;
 }
