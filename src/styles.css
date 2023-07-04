@@ -313,3 +313,10 @@ hr{
         bottom: 25% !important;
     }
 }
+
+/*---testimonials---*/
+
+#testimonial{
+    width: 100%;
+    padding: 70px 0;
+}
